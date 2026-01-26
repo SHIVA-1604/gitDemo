@@ -6,8 +6,9 @@
 
 n=int(input())
 d=dict()
-for i in range(1,n+1):  
-    d[i]=i*i
+if n>=5 and n<=10:
+   for i in range(5,n+1):  
+        d[i]=i*i
     #d={1:1,2:4}
 
 print(d)
