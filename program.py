@@ -1,1 +1,6 @@
-print("HI shiva this is your first push command successfully pushed")
+n = int(input())
+arr = map(int, input().split())
+
+for i in arr:
+    print(i,end="|")
+    
